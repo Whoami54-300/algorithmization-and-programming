@@ -32,6 +32,7 @@ def analyze_logs(file_path):
 
     return ip_counter, status_counter, path_counter, total_size
 
+
 def print_results(ip_counter, status_counter, path_counter, total_size):
     total_requests = sum(ip_counter.values())
 
@@ -50,3 +51,8 @@ def print_results(ip_counter, status_counter, path_counter, total_size):
         print(f"{path} - {count}")
 
     print(f"\nОбщий размер: {total_size}")
+
+
+if __name__ == "__main__":
+    ip, status, path, size = analyze_logs("logs.txt")
+    print_results(ip, status, path, size)
