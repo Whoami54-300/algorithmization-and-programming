@@ -5,7 +5,6 @@ def parse_line(line):
 
     ip = parts[0]
 
-    # "GET /api/users HTTP/1.1"
     request = line.split('"')[1]
     method, path, protocol = request.split()
 
