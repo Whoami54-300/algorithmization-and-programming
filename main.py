@@ -1,4 +1,6 @@
-from collections import defaultdict, Counter
+from collections import Counter
+
+
 
 def parse_line(line):
     parts = line.split()
@@ -23,7 +25,6 @@ def analyze_logs(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
             ip, path, status, size = parse_line(line)
-
             ip_counter[ip] += 1
             status_counter[status] += 1
             path_counter[path] += 1
