@@ -1,7 +1,18 @@
 [
     {
-        "subject": "англ",
-        "task": "что=то",
-        "deadline": "19.06"
+        "subject": "sdfds",
+        "title": "sgsdgfbfdbgfbngfngfngfndgndgngfngn",
+        "deadline": "19.06.2026 23:59",
+        "priority": "обычный",
+        "done": false,
+        "image_path": ""
+    },
+    {
+        "subject": "xdvbsfdbfdb",
+        "title": "dfhgfdhgfhgdhgfhdgfhgfhghhfdhgfhfdhfdhfd sdf dsfhfdh  fd hfdh  h fdh fdh fd hfds h h hfdhfdh dfh  fdd hgh",
+        "deadline": "29.07.2026 23:59",
+        "priority": "обычный",
+        "done": false,
+        "image_path": ""
     }
 ]
